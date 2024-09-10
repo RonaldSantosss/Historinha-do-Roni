@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Grande Final do Campeonato de Futebol</title>
+</head>
+<body>
+    <main>
+        <!-- Cena 1: Preparação -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Preparação para o jogo">
+            <p>O grande dia chegou! Você está se preparando para a final do campeonato de futebol. A equipe está animada e o estádio está lotado. Seu treinador pede uma decisão crucial sobre a estratégia para garantir a vitória.</p>
+            <button class="btn-proximo" data-proximo="1">Escolher a Estratégia Ofensiva</button>
+            <button class="btn-proximo" data-proximo="2">Escolher a Estratégia Defensiva</button>
+        </div>
+
+        <!-- Cena 2: Estratégia Ofensiva -->
+        <div class="passo" id="passo-1">
+            <p>O jogo começa e você adota uma estratégia ofensiva. Seu time está pressionando, mas o adversário parece bem preparado. Qual será o próximo passo?</p>
+            <button class="btn-proximo" data-proximo="3">Fazer um ataque rápido</button>
+            <button class="btn-proximo" data-proximo="4">Manter a posse de bola e criar jogadas</button>
+        </div>
+
+        <!-- Cena 3: Estratégia Defensiva -->
+        <div class="passo" id="passo-2">
+            <p>O jogo começa e você adota uma estratégia defensiva. O time adversário está atacando intensamente. O que você faz para melhorar a situação?</p>
+            <button class="btn-proximo" data-proximo="5">Aumentar a pressão na defesa</button>
+            <button class="btn-proximo" data-proximo="6">Reforçar a marcação em um jogador chave</button>
+        </div>
+
+        <!-- Cena 4: Ataque Rápido -->
+        <div class="passo" id="passo-3">
+            <p>O ataque rápido resulta em um contra-ataque adversário. O treinador pede para ajustar a tática. Qual é a sua recomendação?</p>
+            <button class="btn-proximo" data-proximo="7">Focar em uma defesa sólida</button>
+            <button class="btn-proximo" data-proximo="8">Manter a pressão ofensiva</button>
+        </div>
+
+        <!-- Cena 5: Manter Posse de Bola -->
+        <div class="passo" id="passo-4">
+            <p>Manter a posse de bola permite que seu time crie mais jogadas, mas o tempo está passando e o adversário está se adaptando. Qual é o próximo passo?</p>
+            <button class="btn-proximo" data-proximo="7">Intensificar a estratégia ofensiva</button>
+            <button class="btn-proximo" data-proximo="8">Ajustar a formação para defesa</button>
+        </div>
+
+        <!-- Cena 6: Aumentar a Pressão na Defesa -->
+        <div class="passo" id="passo-5">
+            <p>A pressão aumentada na defesa tem efeito, mas o adversário ainda está perigoso. O que você faz para garantir a vitória?</p>
+            <button class="btn-proximo" data-proximo="9">Tentar uma jogada estratégica</button>
+            <button class="btn-proximo" data-proximo="10">Reforçar a defesa ainda mais</button>
+        </div>
+
+        <!-- Cena 7: Reforçar a Marcação -->
+        <div class="passo" id="passo-6">
+            <p>Reforçar a marcação em um jogador chave reduz as ameaças, mas seu time precisa de uma estratégia ofensiva. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="11">Criar uma jogada especial de ataque</button>
+            <button class="btn-proximo" data-proximo="12">Aumentar a posse de bola</button>
+        </div>
+
+        <!-- Cena 8: Intensificar a Estratégia Ofensiva -->
+        <div class="passo" id="passo-7">
+            <p>Intensificar a ofensiva resulta em boas oportunidades de gol. O adversário está ficando pressionado. O que você faz agora?</p>
+            <button class="btn-proximo" data-proximo="13">Ir para um ataque final</button>
+            <button class="btn-proximo" data-proximo="14">Manter a estratégia até o fim</button>
+        </div>
+
+        <!-- Cena 9: Jogada Estratégica -->
+        <div class="passo" id="passo-9">
+            <p>A jogada estratégica foi bem-sucedida e seu time está próximo da vitória. Restam poucos minutos no jogo. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="15">Focar em defender a vantagem</button>
+            <button class="btn-proximo" data-proximo="16">Continuar a pressionar o adversário</button>
+        </div>
+
+        <!-- Cena 10: Reforçar a Defesa -->
+        <div class="passo" id="passo-10">
+            <p>Reforçar a defesa tem um impacto positivo, mas o adversário ainda tenta pressionar. O que você faz agora?</p>
+            <button class="btn-proximo" data-proximo="17">Ajustar a formação defensiva</button>
+            <button class="btn-proximo" data-proximo="18">Preparar um contra-ataque</button>
+        </div>
+
+        <!-- Cena 11: Jogada Especial de Ataque -->
+        <div class="passo" id="passo-11">
+            <p>A jogada especial resulta em um gol incrível! O time está em êxtase e a vitória parece garantida.</p>
+            <img src="img/cenario-passo11-vitoria.png" alt="Gol incrível">
+            <p>Parabéns! Seu time venceu a final com uma jogada brilhante e a torcida está em festa!</p>
+        </div>
+
+        <!-- Cena 12: Aumentar a Posse de Bola -->
+        <div class="passo" id="passo-12">
+            <p>Aumentar a posse de bola mantém a pressão, mas o adversário começa a se recuperar. O que fazer para garantir a vitória?</p>
+            <button class="btn-proximo" data-proximo="19">Voltar para uma estratégia ofensiva</button>
+            <button class="btn-proximo" data-proximo="20">Fortalecer a defesa</button>
+        </div>
+
+        <!-- Cena 13: Ataque Final -->
+        <div class="passo" id="passo-13">
+            <p>O ataque final é bem-sucedido e seu time marca mais um gol! O adversário não tem tempo para reagir.</p>
+            <img src="img/cenario-passo13-vitoria.png" alt="Ataque final">
+            <p>Parabéns! A vitória está garantida e o campeonato é seu!</p>
+        </div>
+
+        <!-- Cena 14: Manter a Estratégia -->
+        <div class="passo" id="passo-14">
+            <p>Manter a estratégia até o fim resulta em um jogo bem equilibrado. O adversário tenta uma última ofensiva.</p>
+            <button class="btn-proximo" data-proximo="21">Fortalecer a Defesa</button>
+            <button class="btn-proximo" data-proximo="22">Preparar um Contra-ataque</button>
+        </div>
+
+        <!-- Cena 15: Defender a Vantagem -->
+        <div class="passo" id="passo-15">
+            <p>Defender a vantagem é eficaz e o adversário não consegue marcar. O jogo termina com a vitória!</p>
+            <img src="img/cenario-passo15-defesa.png" alt="Defendendo a vantagem">
+            <p>Parabéns! A defesa firme garantiu a vitória no campeonato!</p>
+        </div>
+
+        <!-- Cena 16: Pressionar o Adversário -->
+        <div class="passo" id="passo-16">
+            <p>Continuar pressionando o adversário leva a um erro crucial. Seu time marca mais um gol e vence!</p>
+            <img src="img/cenario-passo16-pressao.png" alt="Pressão final">
+            <p>Parabéns! A pressão final garantiu o título e a comemoração!</p>
+        </div>
+
+        <!-- Cena 17: Ajustar a Defesa -->
+        <div class="passo" id="passo-17">
+            <p>Ajustar a defesa resulta em uma proteção eficaz contra o ataque adversário. O jogo termina com vitória para seu time!</p>
+            <img src="img/cenario-passo17-defesa.png" alt="Ajuste defensivo">
+            <p>Parabéns! O ajuste na defesa foi crucial para garantir a vitória!</p>
+        </div>
+
+        <!-- Cena 18: Preparar Contra-ataque -->
+        <div class="passo" id="passo-18">
+            <p>Preparar um contra-ataque bem-sucedido leva a um gol decisivo. A vitória está garantida!</p>
+            <img src="img/cenario-passo18-contrataque.png" alt="Contra-ataque bem-sucedido">
+            <p>Parabéns! O contra-ataque decisivo garantiu a vitória!</p>
+        </div>
+
+        <!-- Cena 19: Estratégia Ofensiva Reforçada -->
+        <div class="passo" id="passo-19">
+            <p>Reforçar a estratégia ofensiva ajuda a manter a pressão, mas o adversário se ajusta bem. O jogo termina com um empate.</p>
+            <img src="img/cenario-passo19-empate.png" alt="Empate">
+            <p>O jogo termina empatado. Foi uma batalha difícil, mas a experiência será valiosa para a próxima final.</p>
+        </div>
+
+        <!-- Cena 20: Fortalecer a Defesa -->
+        <div class="passo" id="passo-20">
+            <p>Fortalecer a defesa garante que o adversário não consiga marcar. Seu time segura a vitória até o final!</p>
+            <img src="img/cenario-passo20-vitoria.png" alt="Fortalecer a defesa">
+            <p>Parabéns! A defesa sólida foi a chave para a vitória!</p>
+        </div>
+
+        <!-- Cena 21: Ajustar a Defesa -->
+        <div class="passo" id="passo-21">
+            <p>Ajustar a defesa com sucesso mantém seu time à frente. A vitória está próxima!</p>
+            <button class="btn-proximo" data-proximo="13">Focar no ataque final</button>
+            <button class="btn-proximo" data-proximo="22">Manter a estratégia defensiva</button>
+        </div>
+
+        <!-- Cena 22: Preparar Contra-ataque -->
+        <div class="passo" id="passo-22">
+            <p>Preparar um contra-ataque bem-sucedido leva a uma vitória decisiva.</p>
+            <img src="img/cenario-passo22-contrataque.png" alt="Preparar contra-ataque">
+            <p>Parabéns! O contra-ataque garantiu o título e a celebração!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
